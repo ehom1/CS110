@@ -7,7 +7,6 @@ print("Cost per week:", cost_per_week)
 
 classes_per_week = 4
 cost_per_class = cost_per_week / classes_per_week
-print("Cost per class:", cost_per_class)
 
-print (classes_per_week, type(classes_per_week))
-print (cost_per_class, type(classes_per_week))
+print ("Number of classes per week:", classes_per_week, type(classes_per_week))
+print ("Cost per class:", cost_per_class, type(classes_per_week))
