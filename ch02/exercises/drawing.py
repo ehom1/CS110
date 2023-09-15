@@ -10,8 +10,10 @@ tu.color("blue")
 int_angle = 360 / number_sides
 colors = ["blue", "green", "yellow", "red"]
 
-for _ in range(number_sides):
-    tu.forward(length)
-    tu.right(int_angle)
+for i in colors:
+    tu.color(i)
+    for _ in range(number_sides):
+        tu.forward(length)
+        tu.right(int_angle)
 
 screen.exitonclick() 
