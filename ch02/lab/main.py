@@ -61,7 +61,7 @@ pygame.draw.polygon(window, colors, points)
 pygame.display.flip()
 pygame.time.wait(2000)
 
-window.fill("lightblue")
+window.fill("blue")
 pygame.display.flip()
 
 #num_sides = 4
