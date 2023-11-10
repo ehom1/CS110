@@ -15,7 +15,8 @@ class Rectangle():
         self.width = abs(w)
         
     def __str__(self):
-        """_summary_
+        """
+        Combines the arguments into one string 
 
         Returns:
             str: returns the arguments 
