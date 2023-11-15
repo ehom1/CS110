@@ -1,8 +1,10 @@
+import pygame
+
 class Background:
-    def __init__(self, x, y, image):
+    def __init__(self, x, y):
         self.x_pos = x
         self.y_pos = y
-        self.image = image
+        self.image = pygame.image.load("image.jpg")
         
 class Character:
     def __init__(self, x, y, lives, score):
